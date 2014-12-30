@@ -1,7 +1,7 @@
 angular.module('app.router', [
 	'ui.router'
 ])
-.config(function ($routeProvider, $locationProvider,$stateProvider, $urlRouterProvider) {
+.config(function ($locationProvider,$stateProvider, $urlRouterProvider) {
 
   //
   // Now set up the states

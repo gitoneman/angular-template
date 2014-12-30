@@ -40,7 +40,15 @@ gulp.task('html2js', function() {
 })
 
 gulp.task('scripts', function() {
-  gulp.src('public/js/**/*.js')
+  gulp.src([
+  	"jquery/dist/jquery.min.js",
+  	'node_modules/angular/angular.js',
+  	"node_modules/angular-ui-router/release/angular-ui-router.min.js",
+  	
+  	'public/router.js',
+  	'public/app.js',
+  	'public/js/**/*.js',
+  	])
     .pipe(concat('build.js'))
     .pipe(gulp.dest('public/dist/'))
 })
