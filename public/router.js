@@ -11,6 +11,11 @@ angular.module('app.router', [
         templateUrl: "home/homeTemplate.html",
         controller: 'homeController'
     })
+    .state('home.dashboard', {
+        url: "/dashboard",
+        templateUrl: "dashboard/dashboardTemplate.html",
+        controller: 'dashboardController'
+    })
     .state('asset', {
         url: "/asset",
         templateUrl: "asset/assetTemplate.html",

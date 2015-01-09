@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'echarts' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 warn package.json http@0.0.0 http is also the name of a node core module.
+5 warn package.json http@0.0.0 No description
+6 warn package.json http@0.0.0 No repository field.
+7 warn package.json path@0.4.9 path is also the name of a node core module.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'echarts', null ]
+10 verbose cache add name=undefined spec="echarts" args=["echarts",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'echarts',
+11 verbose parsed url   path: 'echarts',
+11 verbose parsed url   href: 'echarts' }
+12 silly lockFile a1658e29-echarts echarts
+13 verbose lock echarts C:\Users\Administrator\AppData\Roaming\npm-cache\a1658e29-echarts.lock
+14 silly lockFile a1658e29-echarts echarts
+15 silly lockFile a1658e29-echarts echarts
+16 verbose addNamed [ 'echarts', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 9b7077c4-echarts echarts@
+19 verbose lock echarts@ C:\Users\Administrator\AppData\Roaming\npm-cache\9b7077c4-echarts.lock
+20 silly addNameRange { name: 'echarts', range: '*', hasData: false }
+21 verbose url raw echarts
+22 verbose url resolving [ 'https://registry.npmjs.org/', './echarts' ]
+23 verbose url resolved https://registry.npmjs.org/echarts
+24 info trying registry request attempt 1 at 15:47:07
+25 http GET https://registry.npmjs.org/echarts
+26 http 404 https://registry.npmjs.org/echarts
+27 verbose headers { date: 'Wed, 31 Dec 2014 07:47:09 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-ty66-TYO',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1420012028.467433,VS0,VE768',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Wed, 31 Dec 2014 07:47:09 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1420012028.467433,VS0,VE768',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 9b7077c4-echarts echarts@
+30 silly lockFile 9b7077c4-echarts echarts@
+31 error 404 404 Not Found: echarts
+31 error 404
+31 error 404 'echarts' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'application-name'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "echarts"
+34 error cwd d:\work\angular-template
+35 error node -v v0.10.28
+36 error npm -v 1.4.9
+37 error code E404
+38 verbose exit [ 1, true ]

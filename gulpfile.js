@@ -41,10 +41,10 @@ gulp.task('html2js', function() {
 
 gulp.task('scripts', function() {
   gulp.src([
-  	"jquery/dist/jquery.min.js",
+  	"node_modules/jquery/dist/jquery.min.js",
   	'node_modules/angular/angular.js',
   	"node_modules/angular-ui-router/release/angular-ui-router.min.js",
-  	
+  	"public/lib/ngTable/ui-grid.min.js",
   	'public/router.js',
   	'public/app.js',
   	'public/js/**/*.js',
@@ -96,7 +96,7 @@ gulp.task("watch",function(){
 	// gulp.watch(["public/js/**/*.html"]).on("change",function(file){
 	// 	sever.changed(file.path);
 	// });
-	watch('public/js/**/*.js',function(){
+	watch(['public/js/**/*.js','public/app.js'],function(){
 		gulp.start('scripts');
 	})
 	watch('public/js/**/*.html',function(){

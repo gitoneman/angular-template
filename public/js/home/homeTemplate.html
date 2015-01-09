@@ -1,3 +1,16 @@
-<div>
-	<div>home</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked" role="tablist">
+				  <li ng-class="{active:currentPath == '/home/dashboard'}" ng-click="currentPath = '/home/dashboard'"><a ui-sref="home.dashboard">111</a></li>
+				  <li ng-class="{active:currentPath == 'page2'}" ng-click="navClick('page2')"><a ui-sref="home.page2" >222</a></li>
+				  <li ng-class="{active:currentPath == 'page3'}" ng-click="navClick('page3')"><a ui-sref="home.page3">333</a></li>	
+			</ul>
+		</div>
+		<div class="col-md-10">
+			<div ui-view>
+				
+			</div>
+		</div>
+	</div>
 </div>
